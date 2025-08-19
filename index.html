@@ -419,20 +419,20 @@
       }
 
       .gallery-slide {
-        width: 25%;
-        height: 100%;
-        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
       }
 
-       @media screen and (max-width: 768px) {
       .gallery-image {
-       max-height: 85vh;
-       width: auto;
-       object-fit: contain;
-       display: block;
-       margin: 0 auto;
-       }
+        max-height: 90vh;
+        width: auto;
+        object-fit: contain;
+        display: block;
+        margin: 0 auto;
      }
+
 
       .gallery-placeholder {
         width: 100%;
